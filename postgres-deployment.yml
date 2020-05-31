@@ -11,6 +11,7 @@ spec:
     matchLabels:
       name: postgres-pod
       app: demo-voting-app
+
   template:
     metadata:
       name: postgres-pod
